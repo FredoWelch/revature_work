@@ -1,0 +1,29 @@
+package com.revature.model;
+
+public class Toy {
+	
+	protected String name;
+	
+	public Toy() {
+	this.name = "";
+	}
+	public Toy(String name) {
+		this.name = name;
+	}
+	//Getter method
+	public String getName() {
+		return name;
+	}
+	//Setter method
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	public void play() {
+		
+		System.out.println("This is fun!");
+		System.out.println("Running the Toy class's play method");
+		
+	}
+
+}
